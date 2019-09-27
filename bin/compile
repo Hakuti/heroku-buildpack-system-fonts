@@ -18,7 +18,7 @@ echo "---8888888----------"
 echo "----POOP> $SOURCE_DIR"
 echo "-----> Extracting fonts to $TARGET_DIR"
 
-mkdir -p "$TARGET_DIR"
+# mkdir -p "$TARGET_DIR"
 tar -xvzf "$SOURCE_DIR" -C "$TARGET_DIR" | indent
 
 fc-cache -fv
