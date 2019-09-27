@@ -10,7 +10,8 @@ function indent() {
 
 BUILD_DIR="$1"
 SOURCE_DIR="$(dirname $0)/../fonts.tar.gz"
-TARGET_DIR="$BUILD_DIR/.fonts"
+# TARGET_DIR="$BUILD_DIR/.fonts"
+TARGET_DIR="../../../../../usr/share/fonts"
 
 ls ../../../../../usr/share/fonts
 echo "---8888888----------"
