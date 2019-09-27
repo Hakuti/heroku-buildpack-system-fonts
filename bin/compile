@@ -12,7 +12,7 @@ BUILD_DIR="$1"
 SOURCE_DIR="$(dirname $0)/../fonts.tar.gz"
 TARGET_DIR="$BUILD_DIR/.fonts"
 
-ls ../../../../../usr
+ls ../../../../../usr/share/fonts
 echo "---8888888----------"
 echo "----POOP> $SOURCE_DIR"
 echo "-----> Extracting fonts to $TARGET_DIR"
